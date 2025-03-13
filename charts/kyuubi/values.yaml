@@ -219,6 +219,8 @@ sparkConf:
   # See example at https://github.com/apache/spark/blob/master/conf/metrics.properties.template and Spark documentation for more details
   metrics: ~
 
+  rangerSparkSecurity: ~
+
 # Command to launch Kyuubi server (templated)
 command: ~
 # Arguments to launch Kyuubi server (templated)

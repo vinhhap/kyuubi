@@ -38,3 +38,7 @@ data:
   metrics.properties: |
     {{- tpl . $ | nindent 4 }}
   {{- end }}
+  {{- with .Values.sparkConf.rangerSparkSecurity }}
+  ranger-spark-security.xml: |
+    {{- tpl . $ | nindent 4 }}
+  {{- end }}
