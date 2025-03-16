@@ -42,3 +42,7 @@ data:
   ranger-spark-security.xml: |
     {{- tpl . $ | nindent 4 }}
   {{- end }}
+  {{- with .Values.sparkConf.rangerSparkAudit }}
+  ranger-spark-audit.xml: |
+    {{- tpl . $ | nindent 4 }}
+  {{- end }}

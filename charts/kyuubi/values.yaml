@@ -220,6 +220,7 @@ sparkConf:
   metrics: ~
 
   rangerSparkSecurity: ~
+  rangerSparkAudit: ~
 
 # Command to launch Kyuubi server (templated)
 command: ~
